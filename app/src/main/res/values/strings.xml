@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SpaService</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="crea_una_cuenta_aqu">Crea una cuenta aquí</string>
+    <string name="todo">TODO</string>
+    <string name="facebook_app_id">333663110712275</string>
+    <string name="fb_login_protocol_scheme">fb333663110712275</string>
+    <string name="title_activity_mapa">Map</string>
+
+</resources>

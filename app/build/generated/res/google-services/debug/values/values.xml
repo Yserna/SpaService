@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">652351644294-ss5ajf167b2tcvb1srr4i3lnbnsk0n4j.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://spaservice-216916.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">652351644294</string>
+    <string name="google_api_key" translatable="false">AIzaSyCDpHAW3Z9x4KNga7FzHuhEAEPNsTmDq_k</string>
+    <string name="google_app_id" translatable="false">1:652351644294:android:2e055ac5dbb5be23</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCDpHAW3Z9x4KNga7FzHuhEAEPNsTmDq_k</string>
+    <string name="google_storage_bucket" translatable="false">spaservice-216916.appspot.com</string>
+    <string name="project_id" translatable="false">spaservice-216916</string>
+</resources>

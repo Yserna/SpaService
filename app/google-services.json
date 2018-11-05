@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "652351644294",
+    "firebase_url": "https://spaservice-216916.firebaseio.com",
+    "project_id": "spaservice-216916",
+    "storage_bucket": "spaservice-216916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652351644294:android:2e055ac5dbb5be23",
+        "android_client_info": {
+          "package_name": "com.example.diego.spaservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652351644294-b0fj7a1g9d3uk6bjf85tusri0t8cli3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diego.spaservice",
+            "certificate_hash": "8c9cb14ce8f5649ecd8324c1729a63fa9344910a"
+          }
+        },
+        {
+          "client_id": "652351644294-ss5ajf167b2tcvb1srr4i3lnbnsk0n4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDpHAW3Z9x4KNga7FzHuhEAEPNsTmDq_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652351644294-ss5ajf167b2tcvb1srr4i3lnbnsk0n4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

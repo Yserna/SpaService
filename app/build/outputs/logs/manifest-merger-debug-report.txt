@@ -1,0 +1,760 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\92d1f441f7bbc3d46b39deaa95c0ce9d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\aafbf6d0f7a29fd0b6f46f411a91fbc3\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\82d56e3105bd48e22633f445d57c7421\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1caf2f03bc213595d4365588ea357be8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-database:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-12.0.0.aar\4ae2391642a9cdc759ec1bd206131bd5\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-12.0.0.aar\cf9073df43771ff8b6acd9e8c57b216a\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.0.aar\db4729118c280254721ff243e847f492\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-12.0.0.aar\b2b33fc90379a6858be322abbe854127\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.0.aar\06aff5d0e391d10592270c8bd337bf5d\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database-connection:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-12.0.0.aar\a48190849fc87a2e3bff057b9839e939\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-core:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-core-12.0.0.aar\30e64bb13f8220fd21778648e582759c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.0.aar\ceea9b1cecf8851ee78697a7391cc9f6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-12.0.0.aar\72527b3d03be0fa608266b2af45737a6\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0-rc02.aar\ece0254652bc1a215b2260969b094b00\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\db1a06b9ae8411b24b68f6bfbc3cfc4b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\1cedc619f698b22c745775c350b16d3d\AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\fe7b8a0e23bd9de8c546879c25fa4db5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\04d6bfa108338b855c148a21c0d2f079\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\9efdfaeecef61b834a65f3642377ff08\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\c2a268c5c9241d638f2a8ee5a0f1a44a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\a33d59ed52319b2afb75618734ce5aff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\5172c655ef4f4dfcca67edd2701a4c16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc02.aar\7629444774c723831b945faee8d08b75\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0-rc02.aar\d353ee61c4c7b2f5d8d021792d04d852\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\92bab0c077d5305a26afb59354ad6d5a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\3dd3f262898867702711f6f2cb67206b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\b21f827c0401eab3a05f225ee61f1886\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\e0104c18351b086c6977c81d8a252de7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\29f5cfe4879998778459f2fef22fa8b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\6b3c222b022f6e5967d980cfeb22f62d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\4142d3fc2801d6cfdc4b1fbedcba3a2d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\96b246edc69c58845e5719f6a52cf0c7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\8c800dfab02431e45929395b70f8ac84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\f50cf6d5a62b9602ccc6e7848b086927\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\0b26621120c6ff77d9c47176c70ecc9f\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\4dadc12ad49b4a3e7fd670d660920dee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc02.aar\128f54b74552df85c461a6ef7442dce9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\2546aab06651fc4012d43c52f2353110\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fdad65b9e6badb0851d22abc19ba5c71\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\0e22bafc5223a4155fc4a9a0bfa444dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\a26ec3ddc9a65c9e093a9193dffb7bd8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\a9d3a6d86ff7548d3e69517da9330963\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4e7e9cba4551825d11c65c57be4d5c67\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\88bab1e5d00d7ce74b385cc0d966c17a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4a67e68898b3365a9b6eb6e9dfe8fc1c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7079c44c00f4562e5aac0914653358e9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-12.0.0.aar\a280adbc2b5df714979ebb4d8791cecb\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-auth-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.0.aar\87c394fee38d14e8b1458a38303d13b6\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.0.aar\a3b99d2e51af194220beea012c6b509d\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.0.aar\bb30a8984fc76358616e0e97507ae658\AndroidManifest.xml:2:1-8:12
+MERGED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.0.aar\b67d47f8815d05b7a4b67c974c3e9217\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.0.aar\d1dea0f905cdfc3a48909bb6455f45e5\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.0.aar\762eaf3b0372296d5ac2a7b1e1ea9d87\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.0.aar\6e8139c67641687eba8fbe61489e595a\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.0.aar\4af3d9695b5af923549f2a6190c5c22f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.0.aar\0b7676f2a4f08db51fb4343b32d9969b\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.0.aar\fb661623be8090d93cc4501f5a8a4eab\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.0.aar\ed2deb1d046490ed4d5242550c88cc32\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.0.aar\2e46e2a001a4ab6727a680cad986e969\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.0.aar\cc71d1339b889cd5b5de45d0ce1e67b7\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.0.aar\e026974fccf797e31183f9bc4582cee3\AndroidManifest.xml:2:1-8:12
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12
+	package
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:23:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:10:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:10:5-89
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:10:22-86
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:13:5-73
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:13:22-70
+uses-permission#android.hardware.location.gps
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:14:5-69
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:14:22-66
+application
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:16:5-75:19
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\92d1f441f7bbc3d46b39deaa95c0ce9d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\92d1f441f7bbc3d46b39deaa95c0ce9d\AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\aafbf6d0f7a29fd0b6f46f411a91fbc3\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\aafbf6d0f7a29fd0b6f46f411a91fbc3\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:28:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1caf2f03bc213595d4365588ea357be8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1caf2f03bc213595d4365588ea357be8\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.android.gms:play-services-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.0.aar\06aff5d0e391d10592270c8bd337bf5d\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.0.aar\06aff5d0e391d10592270c8bd337bf5d\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-core:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-core-12.0.0.aar\30e64bb13f8220fd21778648e582759c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-core-12.0.0.aar\30e64bb13f8220fd21778648e582759c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.0.aar\ceea9b1cecf8851ee78697a7391cc9f6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.0.aar\ceea9b1cecf8851ee78697a7391cc9f6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\1cedc619f698b22c745775c350b16d3d\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\1cedc619f698b22c745775c350b16d3d\AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\fe7b8a0e23bd9de8c546879c25fa4db5\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\fe7b8a0e23bd9de8c546879c25fa4db5\AndroidManifest.xml:9:5-20
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:12:5-26:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:12:5-26:19
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:28:5-51:19
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\f50cf6d5a62b9602ccc6e7848b086927\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\f50cf6d5a62b9602ccc6e7848b086927\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\0b26621120c6ff77d9c47176c70ecc9f\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\0b26621120c6ff77d9c47176c70ecc9f\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\2546aab06651fc4012d43c52f2353110\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\2546aab06651fc4012d43c52f2353110\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-12.0.0.aar\a280adbc2b5df714979ebb4d8791cecb\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-12.0.0.aar\a280adbc2b5df714979ebb4d8791cecb\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.0.aar\87c394fee38d14e8b1458a38303d13b6\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.0.aar\87c394fee38d14e8b1458a38303d13b6\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-database-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.0.aar\a3b99d2e51af194220beea012c6b509d\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-database-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.0.aar\a3b99d2e51af194220beea012c6b509d\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.0.aar\bb30a8984fc76358616e0e97507ae658\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.0.aar\bb30a8984fc76358616e0e97507ae658\AndroidManifest.xml:5:5-6:19
+MERGED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:19:5-24:19
+MERGED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:19:5-24:19
+MERGED from [com.google.android.gms:play-services-base-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.0.aar\b67d47f8815d05b7a4b67c974c3e9217\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-base-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.0.aar\b67d47f8815d05b7a4b67c974c3e9217\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.0.aar\d1dea0f905cdfc3a48909bb6455f45e5\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.0.aar\d1dea0f905cdfc3a48909bb6455f45e5\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.0.aar\762eaf3b0372296d5ac2a7b1e1ea9d87\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.0.aar\762eaf3b0372296d5ac2a7b1e1ea9d87\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.0.aar\6e8139c67641687eba8fbe61489e595a\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.0.aar\6e8139c67641687eba8fbe61489e595a\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.0.aar\4af3d9695b5af923549f2a6190c5c22f\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.0.aar\4af3d9695b5af923549f2a6190c5c22f\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-common-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.0.aar\0b7676f2a4f08db51fb4343b32d9969b\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-common-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.0.aar\0b7676f2a4f08db51fb4343b32d9969b\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.0.aar\fb661623be8090d93cc4501f5a8a4eab\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.0.aar\fb661623be8090d93cc4501f5a8a4eab\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.0.aar\ed2deb1d046490ed4d5242550c88cc32\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.0.aar\ed2deb1d046490ed4d5242550c88cc32\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.0.aar\2e46e2a001a4ab6727a680cad986e969\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.0.aar\2e46e2a001a4ab6727a680cad986e969\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.0.aar\cc71d1339b889cd5b5de45d0ce1e67b7\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.0.aar\cc71d1339b889cd5b5de45d0ce1e67b7\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-iid-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.0.aar\e026974fccf797e31183f9bc4582cee3\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-iid-license:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.0.aar\e026974fccf797e31183f9bc4582cee3\AndroidManifest.xml:5:5-6:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\f50cf6d5a62b9602ccc6e7848b086927\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:21:9-54
+	android:icon
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:17:9-38
+activity#com.example.diego.spaservice.MainActivity
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:24:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:28:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:32:9-34:71
+	android:value
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:34:13-68
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:33:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:35:9-37:55
+	android:value
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:37:13-52
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:36:13-58
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:39:9-42:48
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:42:13-45
+	android:configChanges
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:41:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:40:13-57
+activity#com.example.diego.spaservice.RegistrarCliente
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:43:9-45:61
+	android:parentActivityName
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:45:13-58
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:44:13-45
+activity#com.example.diego.spaservice.RegistrarUsuario
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:46:9-48:61
+	android:parentActivityName
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:48:13-58
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:47:13-45
+activity#com.example.diego.spaservice.SeleccionPerfil
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:49:9-51:58
+	android:parentActivityName
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:51:13-55
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:50:13-44
+activity#com.example.diego.spaservice.PerfilUsuario
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:52:9-51
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:52:19-48
+activity#com.example.diego.spaservice.ListaServicios
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:53:9-55:56
+	android:label
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:55:13-53
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:54:13-43
+activity#com.example.diego.spaservice.RegistrarUsuario2
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:56:9-59:68
+	android:parentActivityName
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:58:13-59
+	android:windowSoftInputMode
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:59:13-65
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:57:13-46
+activity#com.example.diego.spaservice.Solicitudes
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:60:9-62:59
+	android:parentActivityName
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:61:13-40
+activity#com.example.diego.spaservice.Mapa
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:63:9-69:20
+	android:label
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:64:13-33
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:66:13-68:79
+	android:value
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:68:17-76
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:67:17-63
+activity#com.example.diego.spaservice.VistaUsuario
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:70:9-72:50
+	android:parentActivityName
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:72:13-47
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:71:13-41
+activity#com.example.diego.spaservice.Calificacion
+ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:73:9-74:44
+	android:name
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:74:13-41
+uses-sdk
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\92d1f441f7bbc3d46b39deaa95c0ce9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\92d1f441f7bbc3d46b39deaa95c0ce9d\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\aafbf6d0f7a29fd0b6f46f411a91fbc3\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\aafbf6d0f7a29fd0b6f46f411a91fbc3\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\82d56e3105bd48e22633f445d57c7421\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\82d56e3105bd48e22633f445d57c7421\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1caf2f03bc213595d4365588ea357be8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1caf2f03bc213595d4365588ea357be8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-12.0.0.aar\4ae2391642a9cdc759ec1bd206131bd5\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-12.0.0.aar\4ae2391642a9cdc759ec1bd206131bd5\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-12.0.0.aar\cf9073df43771ff8b6acd9e8c57b216a\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-12.0.0.aar\cf9073df43771ff8b6acd9e8c57b216a\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.0.aar\db4729118c280254721ff243e847f492\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.0.aar\db4729118c280254721ff243e847f492\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-12.0.0.aar\b2b33fc90379a6858be322abbe854127\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-12.0.0.aar\b2b33fc90379a6858be322abbe854127\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.0.aar\06aff5d0e391d10592270c8bd337bf5d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.0.aar\06aff5d0e391d10592270c8bd337bf5d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-12.0.0.aar\a48190849fc87a2e3bff057b9839e939\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-12.0.0.aar\a48190849fc87a2e3bff057b9839e939\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-core:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-core-12.0.0.aar\30e64bb13f8220fd21778648e582759c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-core-12.0.0.aar\30e64bb13f8220fd21778648e582759c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.0.aar\ceea9b1cecf8851ee78697a7391cc9f6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.0.aar\ceea9b1cecf8851ee78697a7391cc9f6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-12.0.0.aar\72527b3d03be0fa608266b2af45737a6\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-12.0.0.aar\72527b3d03be0fa608266b2af45737a6\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0-rc02.aar\ece0254652bc1a215b2260969b094b00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0-rc02.aar\ece0254652bc1a215b2260969b094b00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\db1a06b9ae8411b24b68f6bfbc3cfc4b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\db1a06b9ae8411b24b68f6bfbc3cfc4b\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\1cedc619f698b22c745775c350b16d3d\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\1cedc619f698b22c745775c350b16d3d\AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\fe7b8a0e23bd9de8c546879c25fa4db5\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\fe7b8a0e23bd9de8c546879c25fa4db5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\04d6bfa108338b855c148a21c0d2f079\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\04d6bfa108338b855c148a21c0d2f079\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\9efdfaeecef61b834a65f3642377ff08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\9efdfaeecef61b834a65f3642377ff08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\c2a268c5c9241d638f2a8ee5a0f1a44a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\c2a268c5c9241d638f2a8ee5a0f1a44a\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\a33d59ed52319b2afb75618734ce5aff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\a33d59ed52319b2afb75618734ce5aff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\5172c655ef4f4dfcca67edd2701a4c16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\5172c655ef4f4dfcca67edd2701a4c16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc02.aar\7629444774c723831b945faee8d08b75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc02.aar\7629444774c723831b945faee8d08b75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0-rc02.aar\d353ee61c4c7b2f5d8d021792d04d852\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0-rc02.aar\d353ee61c4c7b2f5d8d021792d04d852\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\92bab0c077d5305a26afb59354ad6d5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\92bab0c077d5305a26afb59354ad6d5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\3dd3f262898867702711f6f2cb67206b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\3dd3f262898867702711f6f2cb67206b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\b21f827c0401eab3a05f225ee61f1886\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\b21f827c0401eab3a05f225ee61f1886\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\e0104c18351b086c6977c81d8a252de7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\e0104c18351b086c6977c81d8a252de7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\29f5cfe4879998778459f2fef22fa8b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\29f5cfe4879998778459f2fef22fa8b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\6b3c222b022f6e5967d980cfeb22f62d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\6b3c222b022f6e5967d980cfeb22f62d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\4142d3fc2801d6cfdc4b1fbedcba3a2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\4142d3fc2801d6cfdc4b1fbedcba3a2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\96b246edc69c58845e5719f6a52cf0c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\96b246edc69c58845e5719f6a52cf0c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\8c800dfab02431e45929395b70f8ac84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\8c800dfab02431e45929395b70f8ac84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\f50cf6d5a62b9602ccc6e7848b086927\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\f50cf6d5a62b9602ccc6e7848b086927\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\0b26621120c6ff77d9c47176c70ecc9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\0b26621120c6ff77d9c47176c70ecc9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\4dadc12ad49b4a3e7fd670d660920dee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\4dadc12ad49b4a3e7fd670d660920dee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc02.aar\128f54b74552df85c461a6ef7442dce9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc02.aar\128f54b74552df85c461a6ef7442dce9\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\2546aab06651fc4012d43c52f2353110\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\2546aab06651fc4012d43c52f2353110\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fdad65b9e6badb0851d22abc19ba5c71\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fdad65b9e6badb0851d22abc19ba5c71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\0e22bafc5223a4155fc4a9a0bfa444dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\0e22bafc5223a4155fc4a9a0bfa444dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\a26ec3ddc9a65c9e093a9193dffb7bd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\a26ec3ddc9a65c9e093a9193dffb7bd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\a9d3a6d86ff7548d3e69517da9330963\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\a9d3a6d86ff7548d3e69517da9330963\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4e7e9cba4551825d11c65c57be4d5c67\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4e7e9cba4551825d11c65c57be4d5c67\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\88bab1e5d00d7ce74b385cc0d966c17a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\88bab1e5d00d7ce74b385cc0d966c17a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4a67e68898b3365a9b6eb6e9dfe8fc1c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4a67e68898b3365a9b6eb6e9dfe8fc1c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7079c44c00f4562e5aac0914653358e9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7079c44c00f4562e5aac0914653358e9\AndroidManifest.xml:20:5-44
+MERGED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:5:5-7:41
+MERGED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\50d0d5fa333ec1c430a54346bed8d825\AndroidManifest.xml:34:19-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:22:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:9:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.0.aar\9c3398de2d047b08e60cc13620ef45b4\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.0.aar\8d7cda5958993a861e398732a4e45eb0\AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.0.aar\243bf6ee303c8d13b69d1a52e81c1330\AndroidManifest.xml:24:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.0.aar\06aff5d0e391d10592270c8bd337bf5d\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.0.aar\06aff5d0e391d10592270c8bd337bf5d\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.0.aar\06aff5d0e391d10592270c8bd337bf5d\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.0.aar\06aff5d0e391d10592270c8bd337bf5d\AndroidManifest.xml:24:13-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.0.aar\9465fc0ef09233bb71ed896b439d97fa\AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-analytics-12.0.0.aar\384aa305b50e0b709c69d7ea58c69a85\AndroidManifest.xml:48:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:29:9-63
+permission#com.example.diego.spaservice.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:32:22-76
+uses-permission#com.example.diego.spaservice.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.diego.spaservice
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:42:27-58
+category#com.example.diego.spaservice
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\f3e798b3dc81ac4137277983f7fb170a\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:24:13-58
+activity#com.paypal.android.sdk.payments.PaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:13:9-84
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:13:19-81
+activity#com.paypal.android.sdk.payments.PaymentMethodActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:14:9-90
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:14:19-87
+activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:15:9-91
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:15:19-88
+activity#com.paypal.android.sdk.payments.LoginActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:16:9-82
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:16:19-79
+activity#com.paypal.android.sdk.payments.PayPalFuturePaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:17:9-96
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:17:19-93
+activity#com.paypal.android.sdk.payments.FuturePaymentConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:18:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:18:19-94
+activity#com.paypal.android.sdk.payments.FuturePaymentInfoActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:19:19-91
+activity#com.paypal.android.sdk.payments.PayPalProfileSharingActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:20:19-94
+activity#com.paypal.android.sdk.payments.ProfileSharingConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:21:9-98
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:21:19-95
+service#com.paypal.android.sdk.payments.PayPalService
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:24:13-73
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:48:25-92
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\Yennifer\Desktop\SpaService\app\src\main\AndroidManifest.xml:2:1-77:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+uses-permission#android.permission.CAMERA
+ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:10:22-63
+uses-feature#android.hardware.camera
+ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:13:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:16:9-57
+activity#io.card.payment.CardIOActivity
+ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:20:9-22:66
+	android:configChanges
+		ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:22:13-63
+	android:name
+		ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:21:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:23:9-70
+	android:name
+		ADDED from [io.card:android-sdk:5.5.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.0.aar\b66861555adf909b76d16f5f4b819aa3\AndroidManifest.xml:23:19-67
