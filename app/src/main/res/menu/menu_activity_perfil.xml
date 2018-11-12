@@ -9,6 +9,11 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
     <item
+        android:title="Mi ubicación"
+        android:id="@+id/action_ubicacion"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
         android:title="Salir"
         android:id="@+id/action_salir"
         android:orderInCategory="100"

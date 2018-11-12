@@ -1,9 +1,16 @@
 package com.example.diego.spaservice;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -33,6 +40,8 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class PerfilUsuario extends AppCompatActivity implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener {
 
     private TextView nombre, departamento, telefono, educacio, experienca, perfi;
+    private double longitud = 0;
+    private double latitud = 0;
     private CircleImageView foto;
     private ListView servicio;
     private GoogleApiClient googleApiClient;
@@ -125,6 +134,19 @@ public class PerfilUsuario extends AppCompatActivity implements View.OnClickList
                 }
             }
         };
+
+        int permissionCheck = ContextCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION);
+
+        if(permissionCheck == PackageManager.PERMISSION_DENIED){
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                    android.Manifest.permission.ACCESS_FINE_LOCATION)) {
+            } else {
+                ActivityCompat.requestPermissions(this,
+                        new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},1);
+            }
+
+        }
     }
 
     @Override
@@ -179,7 +201,8 @@ public class PerfilUsuario extends AppCompatActivity implements View.OnClickList
                 });
                 return true;
             }
-            case R.id.action_solicitud:{
+            case R.id.action_solicitud:
+            {
                 if(avalaible){
                     Intent intent = new Intent(this, Solicitudes.class);
                     startActivity(intent);
@@ -187,6 +210,49 @@ public class PerfilUsuario extends AppCompatActivity implements View.OnClickList
                 }else{
                     Toast.makeText(getApplicationContext(), "Verifique si se encuentra disponible", Toast.LENGTH_SHORT).show();
                 }
+            }
+            case R.id.action_ubicacion:
+            {
+                LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+                LocationListener locationListener = new LocationListener() {
+
+                    @Override
+                    public void onLocationChanged(Location location) {
+                        latitud = location.getLatitude();
+                        longitud = location.getLongitude();
+                    }
+
+                    @Override
+                    public void onStatusChanged(String provider, int status, Bundle extras) {
+
+                    }
+
+                    @Override
+                    public void onProviderEnabled(String provider) {
+
+                    }
+
+                    @Override
+                    public void onProviderDisabled(String provider) {
+
+                    }
+                };
+                int permissionCheck = ContextCompat.checkSelfPermission(this,
+                        android.Manifest.permission.ACCESS_FINE_LOCATION);
+                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
+
+                if(avalaible){
+                    Intent intent = new Intent(this, Mapa.class);
+                    intent.putExtra("latitud", latitud);
+                    intent.putExtra("longitud", longitud);
+                    intent.putExtra("perfil", "usuario");
+                    startActivity(intent);
+                    return true;
+                }else{
+                    Toast.makeText(getApplicationContext(), "Verifique si se encuentra disponible", Toast.LENGTH_SHORT).show();
+                }
+
+
             }
         }
         return super.onOptionsItemSelected(item);

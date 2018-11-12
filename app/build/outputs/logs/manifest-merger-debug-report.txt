@@ -31,6 +31,8 @@ MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Yennifer\
 MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\1cedc619f698b22c745775c350b16d3d\AndroidManifest.xml:2:1-12:12
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\fe7b8a0e23bd9de8c546879c25fa4db5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7e1c1503e0312f3df1c2dcf299f47842\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\a0d88dba375a76649d2a11475baf1cd0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\04d6bfa108338b855c148a21c0d2f079\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\9efdfaeecef61b834a65f3642377ff08\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\c2a268c5c9241d638f2a8ee5a0f1a44a\AndroidManifest.xml:17:1-22:12
@@ -178,6 +180,10 @@ MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\cache
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\fe7b8a0e23bd9de8c546879c25fa4db5\AndroidManifest.xml:9:5-20
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:12:5-26:19
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:12:5-26:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7e1c1503e0312f3df1c2dcf299f47842\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7e1c1503e0312f3df1c2dcf299f47842\AndroidManifest.xml:9:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\a0d88dba375a76649d2a11475baf1cd0\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\a0d88dba375a76649d2a11475baf1cd0\AndroidManifest.xml:7:5-11:19
 MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:28:5-51:19
 MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\9f22b8ec41089bab7c3b7cde1366971d\AndroidManifest.xml:28:5-51:19
 MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\f50cf6d5a62b9602ccc6e7848b086927\AndroidManifest.xml:22:5-94
@@ -394,6 +400,10 @@ MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\cache
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\fe7b8a0e23bd9de8c546879c25fa4db5\AndroidManifest.xml:5:5-7:41
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:5:5-7:41
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\c8cd876e32d9603123c07a44efd9783c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7e1c1503e0312f3df1c2dcf299f47842\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7e1c1503e0312f3df1c2dcf299f47842\AndroidManifest.xml:7:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\a0d88dba375a76649d2a11475baf1cd0\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\a0d88dba375a76649d2a11475baf1cd0\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\04d6bfa108338b855c148a21c0d2f079\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\04d6bfa108338b855c148a21c0d2f079\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\9efdfaeecef61b834a65f3642377ff08\AndroidManifest.xml:20:5-44
@@ -660,6 +670,8 @@ ADDED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradl
 		ADDED from [com.google.firebase:firebase-common:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.0.aar\9a39ea72e12f0bb18306dd5d2809d686\AndroidManifest.xml:9:13-77
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\a0d88dba375a76649d2a11475baf1cd0\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\a0d88dba375a76649d2a11475baf1cd0\AndroidManifest.xml:8:9-10:69
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Yennifer\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\95b6f3f039d798e5b551684479be98ad\AndroidManifest.xml:25:13-66
 	android:name

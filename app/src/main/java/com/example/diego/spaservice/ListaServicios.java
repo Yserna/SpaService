@@ -37,8 +37,8 @@ import java.util.ArrayList;
 public class ListaServicios extends AppCompatActivity implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener {
 
     ArrayList<String> selectedItems = new ArrayList<>();
-    double longitud = 0;
-    double latitud = 0;
+    private double longitud = 0;
+    private double latitud = 0;
     private Button consultar;
     private FirebaseAuth firebaseAuth;
     private GoogleApiClient googleApiClient;
@@ -203,6 +203,7 @@ public class ListaServicios extends AppCompatActivity implements View.OnClickLis
             Intent intent = new Intent(this, Mapa.class);
             intent.putExtra("latitud", latitud);
             intent.putExtra("longitud", longitud);
+            intent.putExtra("perfil", "cliente");
             intent.putStringArrayListExtra("servicios", (ArrayList<String>)selectedItems);
             startActivity(intent);
 
